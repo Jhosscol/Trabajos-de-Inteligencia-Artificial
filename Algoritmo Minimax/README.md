@@ -1,4 +1,5 @@
 Algoritmo Minimax con Visualización de Árbol de Juego
+
 Este programa implementa el algoritmo Minimax para la toma de decisiones en juegos de dos jugadores (MAX y MIN). Además de calcular el valor óptimo y el camino de decisión, genera una visualización gráfica del árbol de juego utilizando matplotlib.
 
 Características
