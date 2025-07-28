@@ -1,4 +1,5 @@
 Mundo de Wumpus - Agente basado en percepciones
+
 Descripción
 Este proyecto implementa el clásico juego "Mundo de Wumpus" utilizando Prolog (SWI-Prolog) con una interfaz gráfica. El juego simula un agente que explora una cueva de 4x4 casillas, buscando oro mientras evita peligros como pozos y el temido Wumpus.
 
