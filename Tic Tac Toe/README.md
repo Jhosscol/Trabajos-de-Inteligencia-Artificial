@@ -6,80 +6,90 @@ Este proyecto implementa el clásico juego Tres en Raya (Tic-Tac-Toe) con una IA
 
 Características principales
 
-Algoritmo Minimax: IA invencible que evalúa todos los posibles movimientos.
+- Algoritmo Minimax: IA invencible que evalúa todos los posibles movimientos.
 
 Dos modos de juego:
 
-Interfaz gráfica con TKinter
+- Interfaz gráfica con TKinter
 
-Versión por consola
+- Versión por consola
 
-Sistema de puntuación: Lleva registro de victorias, derrotas y empates.
+- Sistema de puntuación: Lleva registro de victorias, derrotas y empates.
 
-Interfaz intuitiva: Diseño moderno con colores atractivos.
+- Interfaz intuitiva: Diseño moderno con colores atractivos.
 
-Requisitos
-Python 3.x
+Requisitos:
 
-Biblioteca TKinter (normalmente incluida en Python estándar)
+- Python 3.x
+
+- Biblioteca TKinter (normalmente incluida en Python estándar)
 
 Instrucciones de uso
+
 Para la versión gráfica:
-Ejecutar el script: python Minimax_tictactoe.py
 
-Seleccionar la opción 2 (Interfaz gráfica) o simplemente ejecutará esta opción por defecto.
+- Ejecutar el script: python Minimax_tictactoe.py
 
-Jugar haciendo clic en los cuadros del tablero.
+- Seleccionar la opción 2 (Interfaz gráfica) o simplemente ejecutará esta opción por defecto.
 
-Usar los botones "Nuevo Juego" y "Reiniciar Marcador" según sea necesario.
+- Jugar haciendo clic en los cuadros del tablero.
+
+- Usar los botones "Nuevo Juego" y "Reiniciar Marcador" según sea necesario.
 
 Para la versión por consola:
-Ejecutar el script: python Minimax_tictactoe.py
 
-Seleccionar la opción 1 (Consola).
+- Ejecutar el script: python Minimax_tictactoe.py
 
-Introducir números del 0 al 8 para indicar tu movimiento (las posiciones se muestran en el tablero de referencia).
+- Seleccionar la opción 1 (Consola).
+
+- Introducir números del 0 al 8 para indicar tu movimiento (las posiciones se muestran en el tablero de referencia).
 
 Estructura del código
+
 Clases principales:
-TicTacToeGame: Lógica principal del juego
 
-Maneja el tablero y las reglas
+- TicTacToeGame: Lógica principal del juego
 
-Implementa el algoritmo Minimax
+- Maneja el tablero y las reglas
 
-Proporciona versión por consola
+- Implementa el algoritmo Minimax
 
-TicTacToeGUI: Interfaz gráfica
+- Proporciona versión por consola
 
-Tablero interactivo con botones
+- TicTacToeGUI: Interfaz gráfica
 
-Sistema de puntuación
+- Tablero interactivo con botones
 
-Diseño visual con colores temáticos
+- Sistema de puntuación
+
+- Diseño visual con colores temáticos
 
 Funciones clave:
-minimax(): Implementación del algoritmo de decisión
 
-get_best_move(): Determina el mejor movimiento para la IA
+- minimax(): Implementación del algoritmo de decisión
 
-is_winner(): Verifica condiciones de victoria
+- get_best_move(): Determina el mejor movimiento para la IA
 
-player_move() y ai_move(): Manejan los turnos del juego
+- is_winner(): Verifica condiciones de victoria
+
+- player_move() y ai_move(): Manejan los turnos del juego
 
 Personalización
+
 Puedes modificar:
 
-Los colores en la clase TicTacToeGUI
+- Los colores en la clase TicTacToeGUI
 
-El delay de la IA (actualmente 500ms)
+- El delay de la IA (actualmente 500ms)
 
-Los valores de puntuación en el algoritmo Minimax
+- Los valores de puntuación en el algoritmo Minimax
 
 Notas
+
 La IA es perfecta (no se puede ganar, solo empatar con juego óptimo)
 
 El diseño está optimizado para una ventana de 400x500 píxeles
 
 Autor
+
 Implementado en Python con TKinter y algoritmo Minimax.
